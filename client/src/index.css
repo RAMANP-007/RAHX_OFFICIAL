@@ -17,6 +17,22 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Good Times";
+  src: url("/fonts/good_times/Good Times Rg.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pepsi";
+  src: url("/fonts/pepsi/PEPSI_pl.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* =====================
    DESIGN TOKENS
 ===================== */
@@ -133,6 +149,15 @@
   }
 }
 
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
 /* =====================
    RESPONSIVE TOKENS
 ===================== */
@@ -163,6 +188,14 @@
   will-change: transform;
   transform-style: preserve-3d;
   backface-visibility: hidden;
+}
+
+.font-good-times {
+  font-family: "Good Times", var(--font-heading);
+}
+
+.font-pepsi {
+  font-family: "Pepsi", var(--font-heading);
 }
 
 

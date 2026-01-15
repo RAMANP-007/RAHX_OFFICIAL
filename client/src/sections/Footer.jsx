@@ -97,7 +97,7 @@ const Footer = () => {
           © {new Date().getFullYear()} RAHX OFFICIAL. All rights reserved.
         </p>
 
-        <p className="text-xs text-neutral-500">
+        <p className="text-xs text-neutral-500">  
           Built with precision. Not templates.
         </p>
       </div>

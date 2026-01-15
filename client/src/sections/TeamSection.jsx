@@ -3,13 +3,13 @@ import { teamItems } from "../constants";
 
 const TeamSection = () => {
   return (
-    <section id="team" className="bg-white pt-20 sm:pt-28 lg:pt-40">
+    <section id="team" className="font-good-times bg-black pt-20 sm:pt-28 lg:pt-40">
       {/* 🔹 TEXT SECTION (WHITE BG) */}
       <div className="max-w-6xl mx-auto text-center mb-12 sm:mb-16 lg:mb-24 px-6 sm:px-10 lg:px-16">
-        <h2 className="text-[clamp(2.5rem,6vw,3.75rem)] font-black uppercase tracking-wide">
+        <h2 className="text-[clamp(2.5rem,6vw,3.75rem)] font-black uppercase tracking-wide text-white">
           Meet the Team
         </h2>
-        <p className="mt-4 sm:mt-6 text-base sm:text-lg text-neutral-600 max-w-2xl mx-auto">
+        <p className="mt-4 sm:mt-6 text-base sm:text-lg text-white/80 max-w-2xl mx-auto">
           Real people. Real work. No corporate nonsense.
         </p>
       </div>

@@ -7,8 +7,8 @@ export const initWorkflowStack = () => {
   // Clear previous triggers (important during reloads)
   ScrollTrigger.getAll().forEach(trigger => trigger.kill());
 
-  const cardsWrappers = gsap.utils.toArray(".card-wrapper");
-  const cards = gsap.utils.toArray(".card");
+  const cardsWrappers = gsap.utils.toArray(".workflow-wrapper .card-wrapper");
+  const cards = gsap.utils.toArray(".workflow-wrapper .card");
 
   cardsWrappers.forEach((wrapper, i) => {
     const card = cards[i];

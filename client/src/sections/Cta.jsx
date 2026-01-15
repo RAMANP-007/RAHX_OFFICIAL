@@ -2,7 +2,7 @@ import React from "react";
 
 const Cta = () => {
   return (
-    <section id="contact" className="w-full min-h-[70vh] px-6 sm:px-10 lg:px-16 py-16 sm:py-20 flex items-center justify-center">
+    <section id="contact" className="font-pepsi w-full min-h-[70vh] px-6 sm:px-10 lg:px-16 py-16 sm:py-20 flex items-center justify-center">
       {/* OUTER WRAPPER */}
       <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 shadow-xl rounded-3xl bg-white overflow-hidden">
 

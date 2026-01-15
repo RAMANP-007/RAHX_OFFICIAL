@@ -3,7 +3,7 @@ import ScrollVelocity from "../components/ScrollVelocity.jsx";
 
 const ServiceMarquee = () => {
   return (
-    <section className="bg-black py-12 sm:py-14 lg:py-16 overflow-hidden">
+    <section className="font-pepsi bg-black py-12 sm:py-14 lg:py-16 overflow-hidden">
       <ScrollVelocity
         texts={[
           "UI & UX DESIGN • WEBSITE DEVELOPMENT • SEO OPTIMIZATION • SOCIAL MEDIA MANAGEMENT • AI AUTOMATION"

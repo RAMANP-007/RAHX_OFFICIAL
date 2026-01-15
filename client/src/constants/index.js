@@ -38,7 +38,7 @@ export const socials = [
     image: "/Images/team/ahshan.jpeg",
     title: "Ahshan",
     description: "UI Designer & Video Editor — designs clean interfaces & visuals.",
-    link: "UI Designer & Video Editor — designs clean interfaces & visuals."
+    link: "https://www.linkedin.com/in/md-ahshan-haque-/"
   }
 ];
 

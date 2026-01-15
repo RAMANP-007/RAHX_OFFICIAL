@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import TextType from "../components/TypinngText";
-import Beams from "../components/Beams";
+import GradientBlinds from "../components/GradientBlinds";
 
 const Hero = () => {
   const logoRef = useRef(null);
@@ -47,16 +47,20 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative min-h-[100svh] overflow-hidden bg-black">
-      {/* Background Beams */}
-      <div className="absolute inset-0 z-0 pointer-events-none hidden lg:block">
-        <Beams
-          beamWidth={1.8}
-          beamHeight={14}
-          beamNumber={10}
-          speed={1.6}
-          noiseIntensity={1.5}
-          scale={0.25}
-          rotation={15}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <GradientBlinds
+          gradientColors={["#FF9FFC", "#5227FF"]}
+          angle={0}
+          noise={0.3}
+          blindCount={12}
+          blindMinWidth={50}
+          spotlightRadius={0.5}
+          spotlightSoftness={1}
+          spotlightOpacity={1}
+          mouseDampening={0.15}
+          distortAmount={0}
+          shineDirection="left"
+          mixBlendMode="lighten"
         />
       </div>
 

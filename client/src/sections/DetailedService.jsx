@@ -4,7 +4,7 @@ import { serviceCards } from "../constants";
 
 const DetailedService = () => {
   return (
-    <section id="services" className="bg-white py-20 sm:py-28 lg:py-48 relative overflow-hidden">
+    <section id="services" className="font-pepsi bg-white py-20 sm:py-28 lg:py-48 relative overflow-hidden">
       
       {/* SECTION HEADER */}
       <div className="max-w-7xl mx-auto text-center mb-16 sm:mb-24 lg:mb-36 px-6 sm:px-10 lg:px-16">
