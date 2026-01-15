@@ -29,10 +29,10 @@ const Navbar = () => {
 
       /* 🔹 MENU ITEMS */
       items={[
-        { label: "Home", link: "/" },
-        { label: "About", link: "/about" },
-        { label: "Services", link: "/services" },
-        { label: "Contact", link: "/contact" },
+        { label: "Hero", link: "#hero" },
+        { label: "Team", link: "#team" },
+        { label: "Services", link: "#services" },
+        { label: "Contact", link: "#contact" },
       ]}
 
       /* 🔹 SOCIAL ITEMS — ALL FIXED */

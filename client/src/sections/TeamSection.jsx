@@ -3,7 +3,7 @@ import { teamItems } from "../constants";
 
 const TeamSection = () => {
   return (
-    <section className="bg-white pt-20 sm:pt-28 lg:pt-40">
+    <section id="team" className="bg-white pt-20 sm:pt-28 lg:pt-40">
       {/* 🔹 TEXT SECTION (WHITE BG) */}
       <div className="max-w-6xl mx-auto text-center mb-12 sm:mb-16 lg:mb-24 px-6 sm:px-10 lg:px-16">
         <h2 className="text-[clamp(2.5rem,6vw,3.75rem)] font-black uppercase tracking-wide">
