@@ -4,10 +4,10 @@ import { serviceCards } from "../constants";
 
 const DetailedService = () => {
   return (
-    <section className="bg-white py-48 relative overflow-hidden">
+    <section className="bg-white py-20 sm:py-28 lg:py-48 relative overflow-hidden">
       
       {/* SECTION HEADER */}
-      <div className="max-w-7xl mx-auto text-center mb-36 px-6">
+      <div className="max-w-7xl mx-auto text-center mb-16 sm:mb-24 lg:mb-36 px-6 sm:px-10 lg:px-16">
         <h2 className="
           text-[clamp(3.5rem,8vw,6.5rem)]
           font-black
@@ -32,7 +32,7 @@ const DetailedService = () => {
       </div>
 
       {/* MAGIC BENTO GRID */}
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
         <MagicBento
           cards={serviceCards}
 

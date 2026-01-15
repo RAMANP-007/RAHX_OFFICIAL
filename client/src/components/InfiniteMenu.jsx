@@ -976,7 +976,7 @@ function InfiniteMenu  ({ items = [], scale = 1.0 }) {
         <>
           <h2 className={`face-title ${isMoving ? 'inactive' : 'active'}`}>{activeItem.title}</h2>
 
-          <p className={`face-description ${isMoving ? 'inactive' : 'active'} text-white-500`}> {activeItem.description}</p>
+          <p className={`face-description ${isMoving ? 'inactive' : 'active'} `}> {activeItem.description}</p>
 
           <div onClick={handleButtonClick} className={`action-button ${isMoving ? 'inactive' : 'active'}`}>
             <p className="action-button-icon">&#x2197;</p>

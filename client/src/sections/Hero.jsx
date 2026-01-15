@@ -46,7 +46,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="hero" className="relative h-screen overflow-hidden bg-black">
+    <section id="hero" className="relative min-h-[100svh] overflow-hidden bg-black">
       {/* Background Beams */}
       <div className="absolute inset-0 z-0 pointer-events-none hidden lg:block">
         <Beams
@@ -61,10 +61,10 @@ const Hero = () => {
       </div>
 
       {/* Main Typing Text */}
-      <div className="relative z-10 h-full flex items-center justify-center text-center px-6">
+      <div className="relative z-10 min-h-[100svh] flex items-center justify-center text-center px-6 sm:px-10 lg:px-16">
         <TextType
           as="h1"
-          text="We build websites that actually convert."
+          text="We build websites that actually convert"
           loop={false}
           typingSpeed={65}
           showCursor={false}
@@ -72,7 +72,7 @@ const Hero = () => {
             font-black
             uppercase
             tracking-[0.18em]
-            leading-none
+            leading-[0.9]
             text-white
             text-[clamp(3rem,7vw,6rem)]
           "
@@ -80,7 +80,7 @@ const Hero = () => {
       </div>
 
       {/* Logo */}
-      <div className="absolute top-[25%] left-1/2 -translate-x-1/2 z-20">
+      <div className="absolute top-[18%] sm:top-[22%] lg:top-[25%] left-1/2 -translate-x-1/2 z-20 px-6">
         <h1
           ref={logoRef}
           className="
@@ -96,12 +96,11 @@ const Hero = () => {
       </div>
 
       {/* Subtext */}
-      <div className="absolute bottom-16 right-16 z-20 max-w-xl">
+      <div className="absolute bottom-10 sm:bottom-14 lg:bottom-16 left-6 right-6 sm:left-auto sm:right-10 lg:right-16 z-20 max-w-xl">
         <p
           ref={subTextRef}
           className="
-            text-xl
-            md:text-2xl
+            text-[clamp(1rem,3.5vw,1.5rem)]
             font-light
             tracking-wide
             text-white/60
